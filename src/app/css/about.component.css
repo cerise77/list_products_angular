@@ -1,0 +1,140 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}body{-webkit-text-size-adjust:none}
+
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*---------Client----------*/
+.table-main {
+  margin: 50px auto 10px;
+  width: 40%;
+}
+.client-bottom{
+  position: relative;
+  top: 50px;
+}
+.client-m{
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #e8e3e5;
+  cursor: pointer;
+}
+.client-m div{
+  /*display: inline-block;*/
+}
+.codde, .image {
+  display: none;
+}
+.name{
+  margin-bottom: 7px;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.description {
+  font-size: 0.9em;
+  width: 80%;
+
+}
+.price{
+  float: right;
+  margin-top: -30px;
+  padding: 8px;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #bbbbbb;
+}
+.basket ul {
+  list-style: none
+}
+.basket ul >li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.basket a{
+  /*position: relative;
+  top: 0;
+  right: 0;*/
+  display: block;
+  text-align: right;
+  margin-bottom: 15px;
+  width: 70px;
+  /*float: right;*/
+  padding: 7px 15px;
+  background: #bbbbbb;
+  color: #fff;
+  cursor: pointer;
+}
+.basket span {
+  padding: 8px;
+  background: #e8e3e5;
+  color: #000;
+}
+
+
+/*------Admin-------------*/
+.form-group {
+  /*margin: 50px 30% 0;*/
+  margin: 50px auto 10px;
+  width: 270px;
+}
+.form-group .form-control{
+
+  /*width: 70%;*/
+  border-radius: 5px;
+  padding: 5px;
+}
+.form-group .but{
+  margin-top: 10px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  background: gray;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+.field {
+  position: relative;
+
+  margin-bottom: 15px;
+  clear:both;
+  text-align:right;
+}
+.fields {
+  margin-bottom: 15px;
+  clear:both;
+  /*text-align:right;*/
+}
+label {
+  float:left;
+  padding-right: 20px;
+
+}
+.lab {
+  height: 15px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 2px;
+  margin: auto 0;
+}
+
+input.ng-touched.ng-invalid {border:solid red 2px;}
+input.ng-touched.ng-valid {border:solid green 2px;}
+
+textarea.ng-touched.ng-invalid {border:solid red 2px;}
+textarea.ng-touched.ng-valid {border:solid green 2px;}
+
+table th, td {
+  padding: 7px 15px;
+  border: solid 1px #000;
+}
+
+.delete-b{
+  margin-top: -10px;
+  float: right;
+}
